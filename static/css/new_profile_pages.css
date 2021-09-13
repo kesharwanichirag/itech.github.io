@@ -1,0 +1,33 @@
+.skip{
+	border: 1px solid #40a9ff;
+    padding: 8px 40px;
+    background-color: #fff;
+    color: #40a9ff;
+    border-radius: 10px;
+	text-decoration: none;
+}
+
+.skip:hover{
+	background-color: #fff;
+	border: 1px solid #40a9ff;
+	color: #40a9ff;
+}
+
+#text_area_container{
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 5px;
+	box-shadow: inset 6px 5px 4px #ccc, 2px 3px 4px #ccc;
+	background-color: #fff;
+}
+
+#text_area_container textarea{
+	resize: none;
+	height: 120px;
+	outline: none;
+	border: none;
+    font-size: 16px;
+    color: #888;
+	width: 100%;
+	padding: 10px;
+}

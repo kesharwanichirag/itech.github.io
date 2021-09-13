@@ -1,0 +1,86 @@
+/*header box*/
+.resp_header{
+	height: 50px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom: 2px solid #eee;
+}
+
+/*logo*/
+#resp_logo{
+	height: 40px;
+}
+
+/*bar btns*/
+.side_bar_btn{
+	position: relative;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	width: 25px;
+	height: 15px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+
+}
+
+.side_bar_btn_burg{
+	width: 25px;
+	height: 4px;
+	background: #555;
+	border-radius: 5px;
+	transition: all 0.5s ease-in-out;
+}
+
+.side_bar_btn_burg::before,.side_bar_btn_burg::after{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 4px;
+	transition: all 0.5s ease-in-out;
+	border-radius: 5px;
+	background: #555;
+}
+
+.side_bar_btn_burg::before{
+	transform: translateY(-7px);
+}
+
+
+.side_bar_btn_burg::after{
+	transform: translateY(7px);
+}
+
+.side_bar_btn.open .side_bar_btn_burg{
+	transform: translateX(-50px);
+	background: transparent;
+}
+
+
+.side_bar_btn.open .side_bar_btn_burg::before{
+	transform: rotate(45deg) translate(35px,-35px);
+}
+
+
+.side_bar_btn.open .side_bar_btn_burg::after{
+	transform: rotate(-45deg) translate(35px,35px);
+}
+
+/* side nav open box */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  display: none;
+  right: 0px;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenv_data{
+  display: none;
+  transition: 0.5s;
+}

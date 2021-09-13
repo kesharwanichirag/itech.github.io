@@ -1,0 +1,1967 @@
+.main_body{
+	background: #f5f5f5;
+	max-height: 625px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.profile_box{
+	/*padding: 20px 30px;
+	max-height: 240px;*/ 
+	overflow: hidden;
+	border-radius: 30px;
+	text-align: center;
+}
+
+.cover_pic{
+	/*height: 500px;
+	width: 100%;
+	max-height: 500px;*/
+	opacity: 0.5;  
+	border-radius: 30px;
+	/*position: relative;
+	top: 0px;
+	right: 0px;*/
+}	
+
+.profile_pic{
+	/*max-height: 190px;
+	min-height: 190px;
+	max-width: 200px;
+	min-width: 200px;
+	position: absolute;
+	top: 120px;
+	left: 38%;*/
+	border-radius: 20px;
+	border: 3px solid #eee;
+	padding: 5px;
+	background-color: #fff;
+}
+
+.name_box{
+	
+}
+
+.profile_name_other_box{
+	/*position: absolute;
+	top: 320px;
+	left: 2%;
+	width: 96%;*/
+	background-color: #fff;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.username_profile{
+	font-weight: 300;
+	font-size: 40px;
+	color: #666;
+}
+
+.edit_profile{
+	/*position: absolute;
+	top: 20px;
+	left: 81%;*/
+	background: #3f8fce;
+	font-size: 10px;
+}
+
+.name_profile{
+	color: #000;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.user_profile_acadamic_heads{
+	font-weight: 400;
+	color: #777;
+}
+
+.user_profile_acadamic{
+	font-weight: 500;
+	color: #333;
+}
+
+
+.btn_prof_drop_downs{
+	font-weight: 600;
+	color: #888;
+	text-decoration: none;
+}
+
+.btn_prof_drop_downs_active{
+	color: #3f8fce;
+	border-bottom: 3px solid #3f8fce;
+}
+
+.btn_prof_drop_downs:hover{
+	color: #3f8fce;
+}
+
+#profile_side_nav{
+	position: relative;
+	cursor: pointer;
+}
+
+#profile_side_nav_close{
+	position: relative;
+	cursor: pointer;
+	display: none;
+}
+
+#list_nav{
+	position: absolute;
+	right: 10px;
+	border: 1px solid #aaa;
+	width: 200px;
+	background-color: #fafafa;
+	display: none;
+}
+
+.btn_open_upload_pic{
+	font-weight: 600;
+	cursor: pointer;
+	color: #555;
+}
+
+
+/*posts*/
+.my_feeds_profile_container{
+	/*position: absolute;
+	top: 540px;
+	left: 0px;*/
+	width: 90%;
+	margin-left: 5%;
+}
+
+.post_container{
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 20px;
+	/*position: relative;*/
+}
+
+.post_u_dt{
+	padding: 5px 20px;
+}
+
+.side_controller_post{
+	/*position: relative;*/
+}
+
+.uploaded_pic_side{
+	border: 1px solid #999;
+	cursor: pointer;
+	display: none;
+}
+
+.pc_opt_cont{
+	width: 40%;
+}
+
+.pc_options{
+	text-decoration: none;
+	color: #777;
+	font-weight: 500;
+}
+
+.pc_options:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+.post_uprofpc{
+	max-height: 40px;
+	max-width: 40px;
+	min-height: 40px;
+	min-width: 40px;
+	border-radius: 100px;
+}
+
+.post_unn{
+	font-weight: 500;
+}
+
+.post_u_text{
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 5%;
+}
+
+.side_controller_post{
+	color: #666;
+	cursor: pointer;
+}
+
+.post_images{
+	padding: 20px;
+	border-radius: 30px;
+	max-height: 470px;
+}
+
+.button_holder{
+	position: relative;
+	text-align: center;
+}
+
+.posts_button{
+	color: #aaa;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.posts_button_from2{	
+	margin-left: 100px;
+}
+
+.likes{
+	color: #aaa;
+}
+
+.like_count{
+	font-size: 18px;
+	margin-top: 18px;
+	position: absolute;
+	color: #3e8fcd;
+	font-weight: bold;
+}
+
+.like_view{
+	font-size: 18px;
+	margin-top: 25px;
+	margin-left: 30px;
+	position: absolute;
+	font-weight: bold;	
+}
+
+.like_buttons{
+	display: none;
+}
+
+.like_buttons:hover{
+	color: #89b3c3;
+}
+
+.dislike_buttons{
+	color: #3e8fcd;
+	display: none;	
+}
+
+#liked_message{
+	position: absolute;
+	top: 100px;
+}
+
+.comments_btn:hover{
+	color: #2874f0;
+}	
+
+.saved_btns{
+	display: none;
+}
+
+.unsave{
+	display: none;
+	color: #3e8fcd;
+}
+
+
+/* Edit Profile */
+
+.edit_profile_box{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.6);
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+
+.edit_profile_box .edit_profile_cont{
+	background: #fff;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.edit_profile_box .edit_profile_cont .edit_profile_heading{
+	border-bottom: 1px solid #ddd;
+}
+
+
+.edit_profile_box .edit_profile_cont .edit_profile_heading h4{
+	display: inline-block;
+	
+	
+}
+
+.edit_profile_box .edit_profile_cont .edit_profile_headers h6{
+	margin-left: 38%;
+	padding: 5px 0px;
+}
+
+.profile_edit_pic{
+	border-radius: 100px;
+	border: 3px solid #fff;
+	background-color: #fff;
+}
+
+.edit_camera{
+	background-color: #fff;
+	border-radius: 100px;
+}
+
+#profile_pic_edit{
+	opacity: 0;
+	z-index: -1;
+}	
+
+.submit_buttons{
+	border: 1px solid #3e8fcd;
+	background-color: #3e8fcd;
+	color: #fff;
+}
+
+.delete_buttons{
+	border: 1px solid #999;
+	background-color: #f1f1f1;
+	text-decoration: none;
+	color: #555;
+}
+
+
+.delete_buttons:hover{
+	background-color: #efefef;
+	color: #777;
+}
+
+.text_input_forms{
+
+}
+
+.personal_det_labels{
+	font-weight: 600;
+	font-size: 10px;
+	color: #555;
+}
+
+.edit_profile_inputs{
+	background: #f8f8f8;
+    outline: none;
+	font-size: 16px;
+    color: #333;
+	border: 1px solid #ccc;
+    
+}
+
+.txt_submit_buttons{
+	background-color: #3e8fcd;
+	color: #fff;
+}
+
+/*pic conts*/
+.imgs_box{
+	background: rgba(0,0,0,0.6);
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	
+}
+
+.imgs_box img{
+	margin-top: 50px;
+}
+
+
+/*############# follow btns ##############*/
+
+.follow_btns{
+	background-color: #3e8fcd;
+	width: 40%;
+	display: none;
+	margin-left: 35%;
+}
+
+.unfollow_btns{
+	border:  1px solid #666;
+	width: 40%;
+	display: none;
+	margin-left: 35%;
+}
+
+.unfollow_btns:hover{
+	background-color: #efefef;
+}
+
+
+/* following show and box */
+
+.followers_boxes{
+	background: rgba(0,0,0,0.6);
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: none;
+}
+
+#following_counts,#following_lbl{
+
+}
+
+#all_following_box{
+	margin-top: 20px;
+}
+
+.following_person{
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+ .following_person_img{
+	border-radius: 100px;
+}
+.following_person_name{
+	color: #444;
+}
+
+.view_following_profile_btn{
+	border: 1px solid #777;
+	color: #777;
+}
+
+/*create pages*/
+
+/*###################################*/
+#create_pages_box{
+
+}
+
+
+#invalid_ext{
+	position: fixed;
+	top: 60px;
+	left: 26%;
+	max-height: 600px;
+	min-height: 600px;
+	width: 40%;
+	background: #fff;
+	display: none;
+}
+
+.invalid_msg{
+	font-weight: 600;
+	font-size: 19px;
+	color: #666;
+}
+
+.ok_invalid{
+	border: 1px solid #3e8fcd;
+	width: 30%;
+	color: #fff;
+	background: #3e8fcd;
+	margin-left: 35%;
+	cursor: pointer;
+}
+
+/* media query */
+/*extra Small devices (landscape phones, less 576px and up)*/
+@media (max-width: 576px) { 
+	/*cover pic*/
+	.profile_box{
+		padding: 5px 10px;
+	}
+
+	.cover_pic{
+		height: 150px;
+		width: 90%;		
+	}	
+	/*bio*/
+	.bio_box{
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		width: 60%;
+		text-align: center;
+		background-color: #fff;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	.bio span{
+		color: #888;
+		font-size: 10px;
+	}
+	/*profile pic*/
+	.pro_cont{
+		position: absolute;
+		left: 5px;
+		top: 135px;
+		border-radius: 20px;
+	}
+
+	.profile_pic{
+		max-height: 100px;
+		min-height: 100px;
+		max-width: 100px;
+		min-width: 100px;
+	}
+
+	
+	/* names and username */
+
+	.name_box{
+		position: absolute;
+		left: 100px;
+		top: 150px;
+		padding: 3px 15px;
+		border-top-right-radius: 10px;
+	}
+
+	.profile_name_other_box{
+		background-color: #fff;
+	}
+
+	.pro_data_box{
+		margin-top: 60px;
+	}
+
+	.username_profile{
+		display: inline-block;
+		font-weight: 400;
+		font-size: 28px;
+		color: #222;
+	}
+
+	.name_profile{
+		color: #555;
+		font-weight: 400;
+		font-size: 15px;
+	}
+
+	.user_profile_acadamic_heads{
+		font-weight: 400;
+		color: #777;
+	}
+
+	/*follow*/
+	.follow_btns{
+		background-color: #3e8fcd;
+		width: 60%;
+		margin-top: 20px;
+		display: none;
+		margin-left: 20%;
+	}
+
+	.unfollow_btns{
+		border:  1px solid #666;
+		width: 60%;
+		margin-top: 20px;
+		display: none;
+		margin-left: 20%;
+	}
+
+	/*posts*/
+	.post_container{
+		width: 100%;
+	}
+
+	.post_uprofpc{
+		max-height: 30px;
+		max-width: 30px;
+		min-height: 30px;
+		min-width: 30px;
+	}
+
+	.post_images{
+		max-height: 180px;
+		max-width: 180px;
+		padding: 5px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 20px;
+	}
+
+	.posts_button_from2{	
+		margin-left: 12px;
+	}
+
+
+	/*img box*/
+	.imgs_box img{
+		height: 180px;
+		margin-left: 30px;
+	}
+
+	.cross_btns{
+
+	}
+
+
+	/*followers_boxes*/
+	.followers_boxes{
+		height: 450px;
+		width: 90%;
+		position: fixed;
+		top: 60px;
+		right: 20px;
+	}
+
+
+	.following_person{
+		width: 94%;
+		margin-left: 3%;
+		margin-top: 10px;
+		padding: 10px 10px;
+	}
+
+	.following_person_img{
+		max-height: 35px;
+		min-height: 35px;
+		max-width: 35px;
+		min-width: 35px;
+		border-radius: 100px;
+	}
+
+	.following_person_name{
+		margin-left: 10px;
+		color: #444;
+	}
+
+
+	/*edit profile*/
+
+	.edit_profile_box{
+		
+	}
+
+	.edit_profile_box .edit_profile_cont{
+		position: fixed;
+		top: 60px;
+		left: 8%;
+		max-height: 600px;
+		min-height: 600px;
+		width: 84%;
+		
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading{
+		
+	}
+
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading h4{
+		padding: 10px 0px;
+		margin-left: 34%;
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_headers h6{
+		margin-left: 35%;
+		padding: 5px 0px;
+	}
+
+	.profile_edit_pic{
+		max-height: 120px;
+		min-height: 120px;
+		max-width: 130px;
+		min-width: 130px;
+		
+	}
+
+	.edit_camera{
+		position: absolute;
+		top: 240px;
+		left: 54%;
+		padding: 5px;
+		
+	}
+
+	#profile_pic_edit{
+		
+	}	
+
+	.submit_buttons{
+		margin-left: 38%;
+	}
+
+	.delete_buttons{
+		width: 40%;
+		margin-left: 30%;
+		margin-top: 10px;
+	}
+
+	.cover_pic_select{
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	.text_input_forms{
+		margin-left: 20%;
+	}
+
+	.personal_det_labels{
+		margin-right: 10px;
+	}
+
+	.edit_profile_inputs{
+	    padding: 6px 15px;
+	    width: 45%;
+	}
+
+	.edit_profile_textarea{
+		resize: none;
+		width: 44.7%;
+		border: 1px solid #ccc;
+		outline: none;
+	}
+
+	.txt_submit_buttons{
+
+	}
+
+	.upload_post_input{
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	/*cover pic*/
+	.profile_box{
+		padding: 20px 20px;
+	}
+
+	.cover_pic{
+		height: 250px;
+		width: 90%;		
+	}	
+	/*bio*/
+	.bio_box{
+		position: absolute;
+		right: 10px;
+		top: 160px;
+		width: 40%;
+		text-align: center;
+		background-color: #fff;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	.bio span{
+		color: #888;
+		font-size: 10px;
+	}
+	/*profile pic*/
+	.pro_cont{
+		position: absolute;
+		left: 30px;
+		top: 190px;
+		border-radius: 20px;
+	}
+
+	.profile_pic{
+		max-height: 150px;
+		min-height: 150px;
+		max-width: 160px;
+		min-width: 160px;
+	}
+
+	
+	/* names and username */
+
+	.name_box{
+		position: absolute;
+		left: 180px;
+		top: 250px;
+		padding: 3px 15px;
+	}
+
+	.profile_name_other_box{
+		background-color: #fff;
+	}
+
+	.pro_data_box{
+		margin-top: 30px;
+	}
+
+	.username_profile{
+		display: inline-block;
+		font-weight: 600;
+		font-size: 28px;
+		color: #222;
+	}
+
+	.name_profile{
+		color: #555;
+		font-weight: 400;
+		font-size: 15px;
+	}
+
+	.user_profile_acadamic_heads{
+		font-weight: 400;
+		color: #777;
+	}
+
+	/*follow*/
+	.follow_btns{
+		background-color: #3e8fcd;
+		width: 60%;
+		margin-top: 20px;
+		display: none;
+		margin-left: 20%;
+	}
+
+	.unfollow_btns{
+		border:  1px solid #666;
+		width: 60%;
+		margin-top: 20px;
+		display: none;
+		margin-left: 20%;
+	}
+	/*posts*/
+	.post_container{
+		width: 96%;
+		margin-left: 2%;
+	}
+
+	.post_uprofpc{
+		max-height: 33px;
+		max-width: 33px;
+		min-height: 33px;
+		min-width: 33px;
+	}
+
+	.post_images{
+		max-height: 300px;
+		max-width: 300px;
+		padding: 10px;
+		border-radius: 30px;
+	}
+
+	.posts_button_from2{	
+		margin-left: 34px;
+	}
+
+
+	/*img box*/
+	.imgs_box img{
+		height: 260px;
+		margin-left: 80px;
+	}
+
+	.cross_btns{
+
+	}
+
+	/*followers_boxes*/
+	.followers_boxes{
+		height: 450px;
+		width: 80%;
+		position: fixed;
+		top: 60px;
+		right: 20px;
+	}
+
+
+	.following_person{
+		width: 94%;
+		margin-left: 3%;
+		margin-top: 10px;
+		padding: 10px 10px;
+	}
+
+	.following_person_img{
+		max-height: 35px;
+		min-height: 35px;
+		max-width: 35px;
+		min-width: 35px;
+		border-radius: 100px;
+	}
+
+	.following_person_name{
+		margin-left: 10px;
+		color: #444;
+	}
+
+	/*edit profile*/
+
+	.edit_profile_box{
+		
+	}
+
+	.edit_profile_box .edit_profile_cont{
+		position: fixed;
+		top: 60px;
+		left: 12%;
+		max-height: 600px;
+		min-height: 600px;
+		width: 76%;
+		
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading{
+		
+	}
+
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading h4{
+		padding: 10px 0px;
+		margin-left: 39%;
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_headers h6{
+		margin-left: 40%;
+		padding: 5px 0px;
+	}
+
+	.profile_edit_pic{
+		max-height: 150px;
+		min-height: 150px;
+		max-width: 160px;
+		min-width: 160px;
+		
+	}
+
+	.edit_camera{
+		position: absolute;
+		top: 240px;
+		left: 54%;
+		padding: 5px;
+		
+	}
+
+	#profile_pic_edit{
+		
+	}	
+
+	.submit_buttons{
+		margin-left: 41%;
+	}
+
+	.delete_buttons{
+		width: 25%;
+		margin-left: 38%;
+		margin-top: 10px;
+	}
+
+	.cover_pic_select{
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	.text_input_forms{
+		margin-left: 20%;
+	}
+
+	.personal_det_labels{
+		margin-right: 10px;
+	}
+
+	.edit_profile_inputs{
+	    padding: 6px 15px;
+	    width: 45%;
+	}
+
+	.edit_profile_textarea{
+		resize: none;
+		width: 44.7%;
+		border: 1px solid #ccc;
+		outline: none;
+	}
+
+	.txt_submit_buttons{
+
+	}
+
+	.upload_post_input{
+		width: 70%;
+		margin-left: 15%;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	/*cover pic*/
+	.profile_box{
+		padding: 20px 20px;
+	}
+
+	.cover_pic{
+		height: 250px;
+		width: 90%;		
+	}	
+	/*bio*/
+	.bio_box{
+		position: absolute;
+		right: 10px;
+		top: 160px;
+		width: 40%;
+		text-align: center;
+		background-color: #fff;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	.bio span{
+		color: #888;
+		font-size: 10px;
+	}
+	/*profile pic*/
+	.pro_cont{
+		position: absolute;
+		left: 30px;
+		top: 200px;
+		border-radius: 20px;
+	}
+
+	.profile_pic{
+		max-height: 150px;
+		min-height: 150px;
+		max-width: 160px;
+		min-width: 160px;
+	}
+
+	
+	/* names and username */
+
+	.name_box{
+		position: absolute;
+		left: 160px;
+		top: 250px;
+		padding: 3px 35px;
+		border-top-right-radius: 10px;
+	}
+
+	.profile_name_other_box{
+		background-color: #fff;
+	}
+
+	.pro_data_box{
+		margin-left: 35%;
+		margin-top: 30px;
+	}
+
+	.username_profile{
+		display: inline-block;
+		font-weight: 600;
+		font-size: 28px;
+		color: #222;
+	}
+
+	.name_profile{
+		color: #555;
+		font-weight: 400;
+		font-size: 15px;
+	}
+
+	.user_profile_acadamic_heads{
+		font-weight: 400;
+		color: #777;
+	}
+
+	/*follow*/
+	.follow_btns{
+		background-color: #3e8fcd;
+		width: 40%;
+		display: none;
+		margin-left: 50%;
+	}
+
+	.unfollow_btns{
+		border:  1px solid #666;
+		width: 40%;
+		display: none;
+		margin-left: 50%;
+	}
+
+	/*posts*/
+	.post_container{
+		width: 90%;
+		margin-left: 5%;
+		padding: 15px;
+	}
+
+
+	.post_uprofpc{
+		max-height: 30px;
+		max-width: 30px;
+		min-height: 30px;
+		min-width: 30px;
+	}
+
+	.post_images{
+		max-height: 350px;
+		max-width: 350px;
+		padding: 20px;
+		border-radius: 30px;
+	}
+
+	.posts_button_from2{	
+		margin-left: 50px;
+	}
+
+	/*img box*/
+	.imgs_box img{
+		height: 400px;
+		margin-left: 60px;
+	}
+
+	.cross_btns{
+
+	}
+
+	/*followers_boxes*/
+	.followers_boxes{
+		height: 450px;
+		width: 75%;
+		position: fixed;
+		top: 60px;
+		right: 20px;
+	}
+
+
+	.following_person{
+		width: 94%;
+		margin-left: 3%;
+		margin-top: 10px;
+		padding: 10px 10px;
+	}
+
+	.following_person_img{
+		max-height: 35px;
+		min-height: 35px;
+		max-width: 35px;
+		min-width: 35px;
+		border-radius: 100px;
+	}
+
+	.following_person_name{
+		margin-left: 10px;
+		color: #444;
+	}
+
+	/*edit profile*/
+
+	.edit_profile_box{
+		
+	}
+
+	.edit_profile_box .edit_profile_cont{
+		position: fixed;
+		top: 60px;
+		left: 15%;
+		max-height: 600px;
+		min-height: 600px;
+		width: 70%;
+		
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading{
+		
+	}
+
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading h4{
+		padding: 10px 0px;
+		margin-left: 41%;
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_headers h6{
+		margin-left: 42%;
+		padding: 5px 0px;
+	}
+
+	.profile_edit_pic{
+		max-height: 190px;
+		min-height: 190px;
+		max-width: 200px;
+		min-width: 200px;
+		padding: 5px;
+		
+	}
+
+	.edit_camera{
+		position: absolute;
+		top: 240px;
+		left: 54%;
+		padding: 5px;
+		
+	}
+
+	#profile_pic_edit{
+		
+	}	
+
+	.submit_buttons{
+		margin-left: 43%;
+	}
+
+	.delete_buttons{
+		width: 25%;
+		margin-left: 38%;
+		margin-top: 10px;
+	}
+
+	.cover_pic_select{
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.text_input_forms{
+		margin-left: 20%;
+	}
+
+	.personal_det_labels{
+		margin-right: 10px;
+	}
+
+	.edit_profile_inputs{
+	    padding: 6px 15px;
+	    width: 45%;
+	}
+
+	.edit_profile_textarea{
+		resize: none;
+		width: 44.7%;
+		border: 1px solid #ccc;
+		outline: none;
+	}
+
+	.txt_submit_buttons{
+
+	}
+
+	.upload_post_input{
+		width: 60%;
+		margin-left: 20%;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	/*cover pic*/
+	.profile_box{
+		padding: 20px 20px;
+	}
+
+	.cover_pic{
+		height: 250px;
+		width: 90%;		
+	}	
+	/*bio*/
+	.bio_box{
+		position: absolute;
+		right: 10px;
+		top: 160px;
+		width: 40%;
+		text-align: center;
+		background-color: #fff;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	.bio span{
+		color: #888;
+		font-size: 10px;
+	}
+	/*profile pic*/
+	.pro_cont{
+		position: absolute;
+		left: 30px;
+		top: 200px;
+		border-radius: 20px;
+	}
+
+	.profile_pic{
+		max-height: 180px;
+		min-height: 180px;
+		max-width: 190px;
+		min-width: 190px;
+	}
+
+	/* names and username */
+
+	.name_box{
+		position: absolute;
+		left: 180px;
+		top: 250px;
+		padding: 5px 40px;
+		border-top-right-radius: 10px;
+	}
+
+	.profile_name_other_box{
+		background-color: #fff;
+	}
+
+	.pro_data_box{
+		margin-left: 35%;
+	}
+
+	.username_profile{
+		display: inline-block;
+		font-weight: 500;
+		font-size: 28px;
+		color: #222;
+	}
+
+	.name_profile{
+		color: #555;
+		font-weight: 400;
+		font-size: 15px;
+	}
+
+	.user_profile_acadamic_heads{
+		font-weight: 400;
+		color: #777;
+	}
+
+
+	/*posts*/	
+	.post_container{
+		width: 96%;
+		margin-left: 2%;
+		padding: 15px;
+	}
+
+	.post_uprofpc{
+		max-height: 30px;
+		max-width: 30px;
+		min-height: 30px;
+		min-width: 30px;
+	}
+
+	.post_images{
+		max-height: 350px;
+		max-width: 350px;
+		padding: 20px;
+		border-radius: 30px;
+	}
+
+	.posts_button_from2{	
+		margin-left: 50px;
+	}
+
+	/*img box*/
+	.imgs_box img{
+		height: 450px;
+		margin-left: 60px;
+	}
+
+	.cross_btns{
+
+	}
+
+
+	/*followers_boxes*/
+	.followers_boxes{
+		height: 540px;
+		width: 51.7%;
+		position: fixed;
+		top: 60px;
+		left: 20%;
+	}
+
+
+	.following_person{
+		width: 94%;
+		margin-left: 3%;
+		margin-top: 10px;
+		padding: 10px 10px;
+	}
+
+	.following_person_img{
+		max-height: 35px;
+		min-height: 35px;
+		max-width: 35px;
+		min-width: 35px;
+		border-radius: 100px;
+	}
+
+	.following_person_name{
+		margin-left: 10px;
+		color: #444;
+	}
+
+	/*edit profile*/
+
+	.edit_profile_box{
+		
+	}
+
+	.edit_profile_box .edit_profile_cont{
+		position: fixed;
+		top: 60px;
+		left: 20%;
+		max-height: 600px;
+		min-height: 600px;
+		width: 60%;
+		
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading{
+		
+	}
+
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading h4{
+		padding: 10px 0px;
+		margin-left: 43%;
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_headers h6{
+		margin-left: 44%;
+		padding: 5px 0px;
+	}
+
+	.profile_edit_pic{
+		max-height: 190px;
+		min-height: 190px;
+		max-width: 200px;
+		min-width: 200px;
+		padding: 5px;
+		
+	}
+
+	.edit_camera{
+		position: absolute;
+		top: 240px;
+		left: 54%;
+		padding: 5px;
+		
+	}
+
+	#profile_pic_edit{
+		
+	}	
+
+	.submit_buttons{
+		margin-left: 45%;
+	}
+
+	.delete_buttons{
+		width: 25%;
+		margin-left: 38%;
+		margin-top: 10px;
+	}
+
+	.cover_pic_select{
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.text_input_forms{
+		margin-left: 22%;
+	}
+
+	.personal_det_labels{
+		margin-right: 10px;
+	}
+
+	.edit_profile_inputs{
+	    padding: 6px 15px;
+	    width: 45%;
+	}
+
+	.edit_profile_textarea{
+		resize: none;
+		width: 44.7%;
+		border: 1px solid #ccc;
+		outline: none;
+	}
+
+	.txt_submit_buttons{
+
+	}
+
+	.upload_post_input{
+		width: 60%;
+		margin-left: 20%;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	/*cover pic*/
+	.profile_box{
+		padding: 20px 20px;
+	}
+
+	.cover_pic{
+		height: 250px;
+		width: 90%;		
+	}	
+	/*bio*/
+	.bio_box{
+		position: absolute;
+		right: 10px;
+		top: 160px;
+		width: 40%;
+		text-align: center;
+		background-color: #fff;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	.bio span{
+		color: #888;
+		font-size: 10px;
+	}
+	/*profile pic*/
+	.pro_cont{
+		position: absolute;
+		left: 30px;
+		top: 200px;
+		border-radius: 20px;
+	}
+
+	.profile_pic{
+		max-height: 180px;
+		min-height: 180px;
+		max-width: 190px;
+		min-width: 190px;
+	}
+
+	/* names and username */
+
+	.name_box{
+		position: absolute;
+		left: 180px;
+		top: 250px;
+		padding: 5px 40px;
+		border-top-right-radius: 10px;
+	}
+
+	.profile_name_other_box{
+		background-color: #fff;
+	}
+
+	.pro_data_box{
+		margin-left: 27%;
+	}
+
+	.username_profile{
+		display: inline-block;
+		font-weight: 600;
+		font-size: 28px;
+		color: #222;
+	}
+
+	.name_profile{
+		color: #555;
+		font-weight: 400;
+		font-size: 15px;
+	}
+
+	.user_profile_acadamic_heads{
+		font-weight: 400;
+		color: #777;
+	}
+
+	/*posts*/
+
+	.post_container{
+		width: 94%;
+		margin-left: 3%;
+		padding: 20px;
+	}
+
+	.post_uprofpc{
+		max-height: 35px;
+		max-width: 35px;
+		min-height: 35px;
+		min-width: 35px;
+	}
+
+	.post_images{
+		max-height: 400px;
+		max-width: 400px;
+		padding: 20px;
+		border-radius: 30px;
+	}
+
+
+	.posts_button_from2{	
+		margin-left: 80px;
+	}
+
+	/*img box*/
+	.imgs_box img{
+		height: 450px;
+		margin-left: 60px;
+	}
+
+	.cross_btns{
+
+	}
+
+
+	/*followers_boxes*/
+	.followers_boxes{
+		height: 540px;
+		width: 51.7%;
+		position: fixed;
+		top: 60px;
+		left: 20%;
+	}
+
+
+	.following_person{
+		width: 94%;
+		margin-left: 3%;
+		margin-top: 10px;
+		padding: 10px 10px;
+	}
+
+	.following_person_img{
+		max-height: 35px;
+		min-height: 35px;
+		max-width: 35px;
+		min-width: 35px;
+		border-radius: 100px;
+	}
+
+	.following_person_name{
+		margin-left: 10px;
+		color: #444;
+	}
+
+	/*edit profile*/
+
+	.edit_profile_box{
+		
+	}
+
+	.edit_profile_box .edit_profile_cont{
+		position: fixed;
+		top: 60px;
+		left: 20%;
+		max-height: 600px;
+		min-height: 600px;
+		width: 60%;
+		
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading{
+		
+	}
+
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading h4{
+		padding: 10px 0px;
+		margin-left: 43%;
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_headers h6{
+		margin-left: 44%;
+		padding: 5px 0px;
+	}
+
+	.profile_edit_pic{
+		max-height: 190px;
+		min-height: 190px;
+		max-width: 200px;
+		min-width: 200px;
+		padding: 5px;
+		
+	}
+
+	.edit_camera{
+		position: absolute;
+		top: 240px;
+		left: 54%;
+		padding: 5px;
+		
+	}
+
+	#profile_pic_edit{
+		
+	}	
+
+	.submit_buttons{
+		margin-left: 45%;
+	}
+
+	.delete_buttons{
+		width: 25%;
+		margin-left: 36%;
+		margin-top: 10px;
+	}
+
+	.cover_pic_select{
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.text_input_forms{
+		margin-left: 22%;
+	}
+
+	.personal_det_labels{
+		margin-right: 10px;
+	}
+
+	.edit_profile_inputs{
+	    padding: 6px 15px;
+	    width: 45%;
+	}
+
+	.edit_profile_textarea{
+		resize: none;
+		width: 44.7%;
+		border: 1px solid #ccc;
+		outline: none;
+	}
+
+	.txt_submit_buttons{
+
+	}
+
+	.upload_post_input{
+		width: 50%;
+		margin-left: 25%;
+	}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+	/*cover pic*/
+	.profile_box{
+		padding: 20px 20px;
+	}
+
+	.cover_pic{
+		height: 250px;
+		width: 90%;		
+	}	
+	/*bio*/
+	.bio_box{
+		position: absolute;
+		right: 10px;
+		top: 160px;
+		width: 40%;
+		text-align: center;
+		background-color: #fff;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	.bio span{
+		color: #888;
+		font-size: 10px;
+	}
+	/*profile pic*/
+	.pro_cont{
+		position: absolute;
+		left: 30px;
+		top: 200px;
+		border-radius: 20px;
+	}
+
+	.profile_pic{
+		max-height: 190px;
+		min-height: 190px;
+		max-width: 200px;
+		min-width: 200px;
+	}
+
+	/* names and username */
+
+	.name_box{
+		position: absolute;
+		left: 180px;
+		top: 250px;
+		padding: 5px 50px;
+		border-top-right-radius: 10px;
+	}
+
+	.profile_name_other_box{
+		background-color: #fff;
+	}
+
+	.pro_data_box{
+		margin-left: 25%;
+	}
+
+	.username_profile{
+		display: inline-block;
+		font-weight: 600;
+		font-size: 25px;
+		color: #222;
+
+	}
+
+	.name_profile{
+		color: #555;
+		font-weight: 400;
+		font-size: 15px;
+	}
+
+	.user_profile_acadamic_heads{
+		font-weight: 400;
+		color: #777;
+	}
+
+	/*posts*/
+
+	.post_container{
+		width: 90%;
+		margin-left: 5%;
+		padding: 25px;
+	}
+
+	.post_uprofpc{
+		max-height: 40px;
+		max-width: 40px;
+		min-height: 40px;
+		min-width: 40px;
+	}
+
+	.post_images{
+		max-height: 450px;
+		max-width: 450px;
+		padding: 20px;
+		border-radius: 30px;
+	}
+
+	.posts_button_from2{	
+		margin-left: 90px;
+	}
+
+	/*img box*/
+	.imgs_box img{
+		height: 450px;
+		margin-left: 60px;
+	}
+
+	.cross_btns{
+
+	}
+
+	/*followers_boxes*/
+	.followers_boxes{
+		height: 560px;
+		width: 51.7%;
+		position: fixed;
+		top: 60px;
+		left: 20%;
+	}
+
+	.following_person{
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 12px;
+		padding: 13px 15px;
+	}
+
+	.following_person_img{
+		max-height: 40px;
+		min-height: 40px;
+		max-width: 40px;
+		min-width: 40px;
+		border-radius: 100px;
+	}
+
+	.following_person_name{
+		margin-left: 10px;
+		color: #444;
+	}
+
+	/*edit profile*/
+
+	.edit_profile_box{
+		
+	}
+
+	.edit_profile_box .edit_profile_cont{
+		position: fixed;
+		top: 60px;
+		left: 20%;
+		max-height: 600px;
+		min-height: 600px;
+		width: 60%;
+		
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading{
+		
+	}
+
+
+	.edit_profile_box .edit_profile_cont .edit_profile_heading h4{
+		padding: 10px 0px;
+		margin-left: 43%;
+	}
+
+	.edit_profile_box .edit_profile_cont .edit_profile_headers h6{
+		margin-left: 44%;
+		padding: 5px 0px;
+	}
+
+	.profile_edit_pic{
+		max-height: 190px;
+		min-height: 190px;
+		max-width: 200px;
+		min-width: 200px;
+		padding: 5px;
+
+	}
+
+	.edit_camera{
+		position: absolute;
+		top: 240px;
+		left: 54%;
+		padding: 5px;
+		
+	}
+
+	#profile_pic_edit{
+		
+	}	
+
+	.submit_buttons{
+		margin-left: 45%;
+	}
+
+	.delete_buttons{
+		width: 25%;
+		margin-left: 36%;
+		margin-top: 10px;
+	}
+
+	.cover_pic_select{
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.text_input_forms{
+		margin-left: 22%;
+	}
+
+	.personal_det_labels{
+		margin-right: 10px;
+	}
+
+	.edit_profile_inputs{
+	    padding: 6px 15px;
+	    width: 45%;
+	}
+
+	.edit_profile_textarea{
+		resize: none;
+		width: 44.7%;
+		border: 1px solid #ccc;
+		outline: none;
+	}
+
+	.txt_submit_buttons{
+
+	}
+
+	.upload_post_input{
+		width: 50%;
+		margin-left: 25%;
+	}
+}

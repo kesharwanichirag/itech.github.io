@@ -1,0 +1,57 @@
+.main_body{
+	height: 625px;
+	max-height: 625px;
+	overflow: auto;
+}
+
+.inbox_list{
+	background: #f5f5f5;
+}
+
+.msgs_box{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.msg_pen{
+	color: #999;
+}
+
+.inbox_list_container{
+
+}
+
+.inbox_msgs{
+	border: 1px solid #eee;
+	background: #fff;
+	box-shadow: 1px 1px 1px 1px #eee;
+	width: 90%;
+	margin-left: 3%;
+}
+
+.inbox_msgs_pics{
+	max-height: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	min-width: 50px;
+	border-radius: 100px;
+}
+
+.inbox_unm{
+	font-weight: 500;
+	color: #444;
+}
+
+.inbox_last_msg{
+	font-size: 10px;
+	color: #888;
+}
+
+.inbox_online{
+	color: #3e8fcd;
+}
+
+.inbox_offline{
+	color: #aaa;
+}
+

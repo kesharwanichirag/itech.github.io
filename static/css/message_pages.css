@@ -1,0 +1,27 @@
+body{
+	background-image: linear-gradient(to bottom,#eef0f7,#b7c1d7);
+	background-repeat: no-repeat;
+}
+
+h4{
+	font-family:Comic Sans MS, Comic Sans, cursive;
+	font-weight: bold;
+	color: #007ab5;
+}
+
+h5{
+	color: #004993;
+	font-weight: 700;
+}
+
+.card {
+    width: 30%;
+	border-radius: 20px;
+    background: #fff;
+	text-align: center;
+}
+
+.text{
+    color: #666;
+    font-size: 17px;
+}

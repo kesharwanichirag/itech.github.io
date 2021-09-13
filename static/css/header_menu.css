@@ -1,0 +1,193 @@
+body{
+	background-image: linear-gradient(180deg,#d0d4e4,#b7c1d7,#d0d4e4);
+}
+
+#contbox{
+	background: #fff;
+	border-radius: 30px;
+}
+
+/*
+#contbox #logo{
+	border-radius: 30px;
+	border: 1px solid #eee;
+	box-shadow: 6px 7px 4px #eee, 2px 3px 4px #eee;
+}
+*/
+
+#contbox .menu_container{
+	width: 100%;
+}
+
+#contbox .menu_container .menu .menu_links{
+	text-decoration: none;
+	display: inline-block; 
+	color: #999;
+	font-weight: 520;
+	border: 1px solid #fff;
+}
+
+#contbox .menu_container .menu .menu_links .menu_icons{
+	
+}
+
+#contbox .menu_container .menu .menu_links .menu_messages{
+	
+}
+
+/*####### selected #########*/
+
+.menu_selected{
+	border: 1px solid #eee;
+	border-radius: 10px;
+	box-shadow: 1px 2px 3px #eee, 2px 3px 4px #eee;
+}
+
+.menu_selected_text{
+	color: #3e8fcd;
+}
+
+/* ###### session user ######*/
+
+.session_user{
+
+}
+
+.session_user_image{
+	max-height: 40px;	
+	min-height: 40px;
+	max-width: 40px;
+	min-width: 40px;
+	border-radius: 100px;
+}
+
+.session_user_nm{
+	font-weight: 500;
+	color: #555;
+}
+
+.session_user_eml{
+
+}
+
+#all_count_notify{
+	color: #fff;
+	background: red;
+	border-radius: 100px;
+	display: none;
+	font-size: 10px;
+	padding: 2px 6px;
+}
+
+
+/* media query */
+
+/*very Small devices (phones, less 576px and up)*/
+@media (max-width: 576px) { 
+
+	#contbox{
+		border-radius: 0px;
+	}
+
+	#contbox .menu_container {
+		text-align: center;
+	}
+
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	
+	#contbox .menu_container .menu .menu_links .menu_icons{
+		margin-left: 13px;
+	}
+	
+	#all_count_notify{
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	#contbox{
+		border-radius: 0px;
+	}
+
+	#contbox .menu_container .menu .menu_links .menu_icons{
+		margin-left: 15spx;	
+	}
+
+	#all_count_notify{
+	
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	#contbox{
+		border-radius: 30px;
+	}
+
+	#contbox .menu_container .menu .menu_links .menu_icons{
+		margin-left: 2px;
+	}
+
+	#contbox .menu_container .menu .menu_links .menu_messages{
+		
+	}
+
+	#notfication_text_seperate{
+		white-space: nowrap; 
+		width: 80px;
+		overflow: hidden;
+		text-overflow: ellipsis; 
+	}
+
+
+	#all_count_notify{
+		
+	}	
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+	#contbox{
+		border-radius: 30px;
+	}
+
+	#contbox .menu_container .menu .menu_links .menu_icons{
+		margin-left: 2px;
+	}
+
+	#contbox .menu_container .menu .menu_links .menu_messages{
+	}
+
+
+	#all_count_notify{
+		
+	}
+
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 	
+	#contbox{
+		border-radius: 30px;
+	}
+
+	#contbox .menu_container .menu .menu_links .menu_icons{
+		margin-left: 5px;
+	}
+
+	#contbox .menu_container .menu .menu_links .menu_messages{
+		margin-left: 5px;
+	}
+
+	#all_count_notify{
+		margin-left: 10px;
+		padding: 2px 9px;
+	
+	}
+}

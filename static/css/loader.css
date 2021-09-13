@@ -1,0 +1,22 @@
+#pre_loader{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: #fff;
+}
+
+#pre_loader div{
+	margin-top:  260px;
+	width: 3rem;
+	height: 3rem;
+}
+
+#not_connected{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	color: #fff;
+	display: none;
+}

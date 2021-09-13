@@ -1,0 +1,41 @@
+.main_body{
+	background: #f5f5f5;
+	max-height: 625px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.main_body .saved_posts_label{
+	
+}
+
+.main_body #back_btn{
+	border: 2px solid #ccc;
+	color: #999;
+	border-radius:100px;
+	text-decoration: none;
+	background: #fff;
+}
+
+
+.main_body .post_container{
+	
+}
+
+.main_body .post_container .post_card{
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px 1px #eee;
+	width: 40%;
+}
+
+.main_body .post_container .post_card .post_img{
+	max-height: 270px;
+	max-width: 250px;
+	min-height: 270px;
+	border-radius: 5px;
+}
+
+.main_body .post_container .post_card .saved_date{
+	color: #555;
+}

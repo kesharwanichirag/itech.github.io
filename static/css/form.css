@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+	background-image: linear-gradient(180deg,#d0d4e4,#b7c1d7,#d0d4e4);
+}
+
+.wrapper{
+	background-color: #fff;
+  border-radius: 25px;
+}
+
+/*###### popover #########*/
+
+#popout_validation{
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 100%;
+}
+
+#popout_validation h5{
+	color: red;
+}
+
+#popout_validation #error_message{
+	font-weight: 500;
+}
+/*##### popover end ########*/
+
+/*######### svg ##########*/
+
+.wrapper .svg_part img{
+	border-radius: 30px;
+}
+
+.wrapper .svg_part #svg_connect_text{
+	color: blue;
+}
+
+.profile_pic_part{
+	border-radius: 100px;
+	padding: 10px;
+	margin-top: 50px;
+}
+
+.profile_pic_part img{
+	max-height: 400px;
+	min-height: 400px;
+	max-width: 400px;
+	min-width: 400px;
+	padding: 10px;
+	border-radius: 100px;
+}
+
+/*######## svg end ###########*/
+
+/*######## form part #########*/
+
+.wrapper h4{
+	color: #004993;
+	font-weight: 700;
+}
+
+.input_box{
+	border: 1px solid #f1f1f1;
+	background: #f8f8f8;
+	border-radius: 10px;
+}
+
+.wrapper .input_box .form_icons{
+	padding: 5px;
+	padding-left: 5px;
+}
+
+.wrapper .input_box .input{
+	background: #f8f8f8;
+  outline: none;
+	border: none;
+  font-size: 16px;
+  color: #888;
+  padding: 8px 15px;
+	padding-left: 10px;
+}
+
+#button {
+  border: 1px solid #fff;
+  width: 30%;
+	padding: 8px 10px;
+  background-color: #40a9ff;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#button:hover{
+	color: #40a9ff;
+	border: 1px solid #40a9ff;
+	background-color: #fff;
+}
+
+/*###### form part end #########*/
+
+/*###### validation ###########*/
+.wrong{
+	font-weight: bold;
+	color: #ff4f4f;
+	display: none;
+	margin-right: 3px;
+}
+
+.check{
+	font-weight: bold;
+	color: #4aa5ff;
+	display: none;
+	margin-right: 3px;
+}
+
+.error{
+	color: red;
+}
+
+/*###### End validation ###########*/
+
+/*###### login with ###########*/
+.login_with{
+	border: 2px solid #ddd;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.login_with a{
+	text-decoration: none;
+}	
+
+.login_with img{
+	height: 20px;
+}	
+
+.login_with span{
+	font-size: 15px;
+	color: #666;
+}
+
+#other_box span{
+	color: #666;
+	font-weight: 420;
+}
+
+#other_box a{
+	text-decoration: none;
+	color: #158aff;
+	font-size: 17px;
+}
+
+/*###### login with End ###########*/
+
+/* Tool tip */
+
+ .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/*.input_box:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}*/
+
+
+/*############# media query ###########*/
+
+
+/* media query */
+/*extra Small devices (landscape phones, less 576px and up)*/
+@media (max-width: 576px) { 
+	.wrapper{
+		background-color: #fff;
+	  border-radius: 0px;
+	}
+	
+	.input_box{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.wrapper .input_box .form_icons{
+		padding: 5px;
+		padding-left: 5px;
+	}
+
+	.wrapper .input_box .input{
+		padding: 8px 15px;
+		padding-left: 10px;
+		width: 80%;
+	}
+
+	#button{
+	    width: 90%;
+			padding: 8px 10px;
+	    margin-bottom: 20px;
+	    margin-left: 1%;
+	}
+
+	/*###### login with ###########*/
+	.login_with {
+		width: 90%;
+	}	
+
+
+	.login_with img{
+		height: 20px;
+
+	}	
+
+	.login_with span{
+	
+	}
+
+	#other_box span{
+	
+	}
+
+	#other_box a{
+		
+	}
+	
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	.wrapper{
+		background-color: #fff;
+	  border-radius: 0px;
+	}
+	.wrapper .svg_part img{
+		height: 220px;
+		border-radius: 30px;
+	}
+
+	.wrapper .svg_part #svg_connect_text{
+		color: blue;
+	}
+
+	.input_box{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.wrapper .input_box .form_icons{
+		padding: 5px;
+		padding-left: 5px;
+	}
+
+	.wrapper .input_box .input{
+		padding: 8px 15px;
+		padding-left: 10px;
+		width: 87%;
+	}
+
+	#button{
+	    width: 90%;
+			padding: 8px 10px;
+	    margin-bottom: 20px;
+	    margin-left: 1%;
+	}
+
+	/*###### login with ###########*/
+	.login_with {
+		width: 90%;
+	}	
+
+
+	.login_with img{
+		height: 20px;
+
+	}	
+
+	.login_with span{
+	
+	}
+
+	#other_box span{
+	
+	}
+
+	#other_box a{
+		
+	}	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	.wrapper{
+		background-color: #fff;
+	  border-radius: 25px;
+	}
+	
+	.wrapper .svg_part img{
+		height: 220px;
+		border-radius: 30px;
+	}
+
+	.wrapper .svg_part #svg_connect_text{
+		color: blue;
+	}
+
+
+	.input_box{
+		width: 100%;
+	}
+
+	.wrapper .input_box .form_icons{
+		padding: 5px;
+		padding-left: 5px;
+	}
+
+	.wrapper .input_box .input{
+		padding: 8px 15px;
+		padding-left: 10px;
+		width: 87%;
+	}
+
+	#button {
+	    width: 40%;
+			padding: 8px 10px;
+	    margin-left: 0px;
+	}
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.wrapper{
+		background-color: #fff;
+	  border-radius: 25px;
+	}
+	
+	.wrapper .svg_part img{
+		height: 330px;
+		border-radius: 30px;
+	}
+
+	.wrapper .svg_part #svg_connect_text{
+		color: blue;
+	}
+
+
+	.input_box{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.wrapper .input_box .form_icons{
+		padding: 5px;
+		padding-left: 5px;
+	}
+
+	.wrapper .input_box .input{
+		padding: 8px 15px;
+		padding-left: 10px;
+		width: 87%;
+	}
+
+	#button {
+	    width: 40%;
+			padding: 8px 10px;
+	    margin-left: 0px;
+	}
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.wrapper{
+		background-color: #fff;
+	  border-radius: 25px;
+	}
+
+
+	.wrapper .svg_part img{
+		height: 460px;
+		border-radius: 30px;
+	}
+
+	.wrapper .svg_part #svg_connect_text{
+		color: blue;
+	}
+
+
+	.input_box{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.wrapper .input_box .form_icons{
+		padding: 5px;
+		padding-left: 5px;
+	}
+
+	.wrapper .input_box .input{
+		padding: 8px 15px;
+		padding-left: 10px;
+		width: 87%;
+	}
+
+	#button {
+	    width: 40%;
+			padding: 8px 10px;
+			margin-left: 0px;
+	    
+	}
+	/*###### login with ###########*/
+	.login_with{
+		
+	}
+
+	.login_with a{
+	
+	}	
+
+	.login_with img{
+		height: 20px;
+	}	
+
+	.login_with span{
+	
+	}
+
+	#other_box span{
+	}
+
+	#other_box a{
+	
+	}
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+	
+	.wrapper{
+		background-color: #fff;
+	  border-radius: 25px;
+	}
+
+	
+	.wrapper .svg_part img{
+		height: 500px;
+	}
+
+	.wrapper .svg_part #svg_connect_text{
+	
+	}
+
+	.input_box{
+		width: 95%;	
+
+	}
+
+	.wrapper .input_box .form_icons{
+		padding: 5px;
+		padding-left: 5px;
+	}
+
+	.wrapper .input_box .input{
+		padding: 8px 15px;
+		padding-left: 10px;
+		width: 80%;
+	}
+
+	#button {
+	    width: 30%;
+			padding: 8px 10px;
+	    border-radius: 10px;
+	    margin-left: 0px;
+	    margin-bottom: 0px;
+	}
+
+
+	/*###### login with ###########*/
+	.login_with{
+		margin-top: 0px;		
+	}
+
+	.login_with a{
+	
+	}	
+
+	.login_with img{
+		height: 20px;
+	}	
+
+	.login_with span{
+	
+	}
+
+	#other_box span{
+	}
+
+	#other_box a{
+	
+	}
+}

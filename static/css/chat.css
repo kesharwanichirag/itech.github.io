@@ -1,0 +1,83 @@
+/*################## msg #################*/
+
+.msg_head_cont{
+	border: 1px solid #aaa;
+	/*position: fixed;
+	top: 45px;
+	width: 44.8%;*/
+}
+
+.back_arrow{
+	color: #444;
+}
+
+.msg_box{
+	border: 1px solid #aaa;
+	border-top: none;
+	height: 500px;
+	max-height: 600px;
+	overflow: auto;
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+  	background-size: 840px 540px;
+  	/*margin-top: 72px;*/
+}
+
+.profile_pic_msg_top{
+	max-height: 40px;
+	min-height: 40px;
+	max-width: 40px;
+	min-width: 40px;
+	border-radius: 100px;
+}
+
+.msg_online{
+	color: #fff;
+	background: #555;
+	border-radius: 100px;
+	padding: 8px 13px;
+}
+.msg_control_box{
+	border: 1px solid #aaa;
+	border-top: none;
+}
+
+.msg_control_input{
+	border: none;
+	color: #555;
+	width: 85%;
+	border-left: 1px solid #aaa;
+}
+
+.msg_control_input:focus{
+	outline: none;
+}
+
+.send_btn{
+	background-color: #3e8fcd;
+	color: #fff;
+	border: 1px solid #3e8fcd;
+	
+}
+
+.stickers_btn{
+
+}
+
+.other_msg{
+	background: #fff;
+	border: 1px solid #aaa;
+	max-width: 40%;
+	border-radius: 20px;
+	max-width: 40%;
+	color: #555;
+}
+
+
+.my_msg{
+	background: #3e8fcd;
+	border: 1px solid #3e8fcd;
+	color: #fff;
+	border-radius: 20px;
+	max-width: 40%;
+}

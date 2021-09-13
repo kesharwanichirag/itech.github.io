@@ -1,0 +1,58 @@
+.main_body{
+	background: #f5f5f5;
+	max-height: 625px;
+	overflow: auto;
+}
+
+.main_body .icons_container .nav_icons{
+	color: #aaa;
+	text-decoration: none;
+	margin: none;
+	
+}
+
+.main_body .icons_container .nav_icons_active{
+	color: #3e8fcd;
+
+}
+
+.main_body .notification_container{
+	max-height: 625px;
+	height: 625px;	
+}
+
+.main_body .notification_container .notifications_messages{
+	border: 1px solid #eee;
+	width: 90%;
+	margin-left: 5%;
+	background: #fff;
+	box-shadow: 1px 1px 1px 1px #eee;
+	height: 100px;
+}
+
+.notify_profs{
+	max-height: 30px;
+	min-height: 30px;
+	max-width: 30px;
+	min-width: 30px;
+	border-radius: 100px;
+}
+
+.notify_imgs{
+	max-height: 80px;
+	min-height: 80px;
+	max-width: 80px;
+	min-width: 80px;
+	margin-top: -55px;
+	margin-right: 10px;	
+}
+
+.notify_times{
+	font-size: 10px;
+}
+
+.notify_count{
+	color: #555;
+
+	
+}

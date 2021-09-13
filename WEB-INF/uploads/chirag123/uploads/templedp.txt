@@ -1,0 +1,27 @@
+tables:
+
+admin:single pic,history of garhkali,history of kalidas 
+images
+videos links
+mantras
+stotras
+
+###########################################################
+create database templedb;
+use templedb;
+
+#admin#
+create table admin(
+admin_id int auto_increment primary key,
+admin_email varchar(100) not null,
+admin_password varchar(200) not null
+);
+
+#images#
+create table images(
+image_id int auto_increment primary key,
+image varchar(500) not null,
+image_uploading_date timestamp not null,
+image_heading varchar(100),
+image_description varchar(2000)
+);

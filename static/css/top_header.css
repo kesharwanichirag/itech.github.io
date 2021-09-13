@@ -1,0 +1,16 @@
+.top_header{
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom: 2px solid #eee;
+}
+
+#top_logo{
+	height: 26px;
+}
+
+.logout{
+	font-weight: 540;
+	color: #aaa;
+	border-radius: 10px;
+	border: 1px solid #aaa;
+}

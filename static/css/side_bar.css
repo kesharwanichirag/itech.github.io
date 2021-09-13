@@ -1,0 +1,258 @@
+/* ######### Search ##########*/
+.search_box{
+
+}
+
+#search_bar{
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	background: #f8f8f8;
+	position: relative;
+}
+
+#search_bar #search{
+	outline: none;
+	border: none;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: #555;
+	background: #f8f8f8;
+}
+
+#search_bar #search_button{
+	outline: none;
+	border: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-left: 0px;
+	float: right;
+	border-left: 2px solid #ccc;
+	background-color: #ccc;
+	color: #fff;
+	font-weight: 500;
+}
+
+#srch_res{
+	position: absolute;
+	top: 36px;
+	width: 100%;
+	border-radius: 10px;
+	background: #eee;
+	display: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#srch_res .searched_user{
+	background: #fff;
+	width: 90%;
+	margin-left: 5%;
+	border-radius: 10px;
+}
+
+#srch_res .srch_user_img{
+	max-height: 50px;
+	min-height: 50px;
+	max-width: 50px;
+	min-width: 50px;
+	border-radius: 100px;
+}
+
+#srch_res .srch_username{
+	color: #000;
+	font-weight: 500;
+	margin-top: -15px;
+}
+
+#srch_res .srch_nm{
+	display: block;
+	margin-left: 60px;
+	margin-top: -15px;
+	font-size: 10px;
+	color: #777;
+}
+
+#spinner_loader{
+	float:  right;
+	margin-top: 4px;
+	margin-right: 10px;
+	display: none;
+}
+
+/*########### search End #############*/
+
+/*############# Suggested User ############*/
+
+.suggession_box{
+	border-bottom: 1px solid #ddd;
+}
+
+.suggested_user{
+	border: 1px solid #eee;
+	border-radius: 10px;
+	box-shadow: 1px 2px 3px #eee, 2px 3px 4px #eee;
+	padding: 8px 13px;
+	background-color: #f8f8f8;
+}
+
+.user_imgs{
+	max-width: 50px;
+	max-height: 50px;
+	min-width: 50px;
+	min-height: 50px;
+	border-radius: 100px;
+}
+
+.user_nm{
+	font-size: 12px;
+	color: #222;
+	margin-left: 5px;
+	font-weight: 500;
+	white-space: nowrap; 
+	width: 90px; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
+}
+
+.view_profile_btn{
+	border: 1px solid #444;
+	background-color: #fff;
+	color: #444;
+	font-size: 10px;
+	border-radius: 8px;
+}
+
+/*#### pages Section #####*/
+.pages_box{
+	height: 190px;
+	max-height: 190px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+.pages_container{
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 130px;
+}
+
+.my_pages_list{
+	width: 100%;
+	border: 2px solid #eee;
+	box-shadow: 1px 2px 3px #eee, 2px 3px 4px #eee;
+	padding: 8px 13px;
+}
+
+.pages_images{
+	max-width: 40px;
+	max-height: 40px;
+	min-width: 40px;
+	min-height: 40px;
+	border-radius: 100px;	
+}
+
+.my_pages_names{
+	font-size: 12px;
+	color: #444;
+	margin-left: 5px;
+	font-weight: 500;
+	white-space: nowrap; 
+	width: 200px; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
+}
+
+.page_prev_btn{
+	color: #444;	
+}
+
+.page_type{
+	font-size: 10px;
+	color: #666;
+	background: #e1e9eb;
+	padding: 2px 7px;
+	border-radius: 10px;
+}
+
+/*#### News Section #####*/
+
+.footer_links{
+	text-decoration: none;
+	margin: 0px 10px;
+	color: #777;
+	font-size: 15px;
+}
+
+/*other copies*/
+#contbox .head_text_label{
+	color: #555;
+	font-weight: 600;
+	font-size: 19px;
+}	
+
+ .feed_active{
+	text-decoration: none;
+	font-size: 14px;
+	padding: 5px 5px;
+	color: #3e8fcd;
+	font-weight: 500;
+}
+
+/* media query */
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px){ 
+	.suggested_user{
+		width: 200px;
+		margin-left: 0px;
+	}
+
+	#search_bar #search{
+		padding: 4px 10px;
+		width: 110px;
+	}
+
+	#search_bar #search_button{
+		padding: 4px 15px;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.suggested_user{
+		width: 230px;
+	}
+
+	#search_bar #search{
+		padding: 4px 15px;
+		width: 160px;
+	}
+
+	#search_bar #search_button{
+		padding: 4.8px 15px;
+	}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+	
+	/*search bar*/
+	#search_bar #search{
+		padding: 5px 20px;
+		width: 200px;
+	}
+
+	#search_bar #search_button{
+		padding: 5.6px 21px;
+	}
+
+	/* suggested user */
+	.suggested_user{
+		width: 290px;
+	}
+}
